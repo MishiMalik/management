@@ -668,6 +668,11 @@ footer{
     color: #ff6f0f;
 }
 /* hero section================================== */
+.carousel{
+    position: relative;
+   z-index: 5 !important;
+
+}
 .carousel-control-next-icon2{
     background-color: var(--primary) !important;
     height: 80px  !important;
@@ -680,7 +685,6 @@ footer{
     bottom: -80px;
     right: 0px;
     background-image: url('../images/arrow-right.svg') !important;
-   z-index: 5 !important;
 }
 .carousel-control-prev-icon2{
     background-color: var(--primary) !important;
