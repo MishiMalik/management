@@ -1,0 +1,335 @@
+@media only screen and (min-width:1600px){
+    .navbar {
+        height: 150px;
+    }
+    .navbar-brand{
+        height: 150px;
+        
+    }
+    .nav-link{
+        font-size: 24px;
+    }
+    .nav-item{
+        padding: 5px 15px;
+    }
+   /* ===============================================language and search */
+    .language i{
+        font-size: 28px;
+        color: white;
+    }
+    .language select{
+        padding: 10px 0px;
+        width: 70px;
+    }
+    .form-select{
+        background-size: 11px;
+    }
+    .job-heading{
+        margin: 80px 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1300px){
+    .container{
+        max-width: 1100px !important;
+    }
+}
+@media only screen and (max-width:1200px){
+  /* member cards */
+    .member-card-text h1{
+            font-size: 20px;
+    }
+    .member-card-text p{
+        font-size: 20px;
+    }
+    .member-card-text  .location{
+        font-size: 20px;
+       
+    }
+
+    /* job cads=================== */
+    .job-card-text{
+        padding: 10px 7px;
+    }
+    .job-card-text h1{
+        font-size: 18px;
+       
+    }
+    .job-card-text p{
+        font-size: 18px;
+   
+    }
+    .job-card-text button{
+        font-size: 16px;
+        font-weight: 500;
+      
+    }
+    .job-card-text span{
+        font-size: 15px;
+    }
+
+    /* =============================service card */
+    .service-card-text h1{
+        font-size: 28px;
+    }
+    .blog-card-text{
+        padding:10px;
+    }
+}
+@media only screen and (max-width:1100px){
+    .hero-heading h1{
+        font-size: 30px;
+       width: 300px;
+    }
+    .hero-heading h2{
+        font-size: 30px;
+        width: 320px;
+      
+    }
+    .carousel-indicators{
+        top: 150px !important;
+    }
+}
+@media only screen and (max-width:991px){
+    .carousel-indicators{
+        top: unset !important;
+        right: 45% !important;
+    }
+    .hero-heading{
+        margin-left:unset;
+        position: relative;
+        z-index: 10;
+        margin-top: 100px;
+    }
+    .hero-heading{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero-heading h1{
+       width:unset !important;
+       background-color: transparent;
+       color: var(--primary);
+       font-size: 35px;
+       padding-right: 15px !important;
+    }
+    .hero-heading h2{
+        width: unset !important;
+        background-color: transparent;
+        color: var(--primary);
+        font-size: 35px;
+       
+      
+    }
+    .hero-text{
+margin-top: 0px !important;
+    }
+    .carousel-control-next-icon2{
+        background-color: var(--primary) !important;
+        height: 60px  !important;
+        width: 100px  !important;
+        bottom: -60px;
+    }
+    .carousel-control-prev-icon2{
+        background-color: var(--primary) !important;
+        height: 60px  !important;
+        width: 100px  !important;
+        right: 100px !important;
+        bottom: -60px !important;
+    } 
+    .navbar-toggler{
+        margin-right: 15px !important;
+    }
+    .navbar-collapse{
+        background-color: var(--primary);
+        z-index: 1000;
+        }
+    .navbar-nav{
+        padding: 10px 15px;
+
+    }
+        .nav-link{
+            color: white !important;
+            font-size: 18px;
+        }
+        .active{
+            color: #ff6f0f !important;
+        }
+        .search-lang{
+            justify-content: flex-end;
+        }
+        .footer-text{
+            justify-content: center !important;
+            text-align: center;
+            align-items: center !important;
+            margin-top: 10px;
+        }
+}
+@media only screen and (max-width:768px){
+    .hero-section-img{
+        height: 400px;
+        width: 100%;
+    }
+    .hero-section-img img{
+        height: 400px;
+        width: 100%;
+    }
+   
+        .navbar-brand{
+            height: 100px;
+            width: auto;
+            object-fit: contain;
+        }
+       .navbar{
+        height: 100px;
+       }
+       .search-lang{
+        justify-content: flex-end;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow:none;
+    }
+    .mailing-list input{
+        height: 50px;
+        width: 100%;
+       font-size: 18px;
+      }
+      .mailing-list button{
+          height: 50px;
+          width: 100%;
+         font-size: 18px;
+         margin: 0px;
+         text-align: center;
+         margin-top: 20px;
+      }
+      .mailing-list{
+        padding: 30px 10px;
+    }
+      .mailing-form{
+        flex-direction: column;
+      }
+      .review-text{
+       padding: 0px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:479px){
+    .mt-50{
+        margin-top: 50px;
+    }
+    .hero-section-img{
+        height: 300px;
+        width: 100%;
+    }
+    .hero-section-img img{
+        height: 300px;
+        width: 100%;
+    }
+    .carousel-indicators{
+        top: unset !important;
+        right: 40% !important;
+    }
+        .nav-link{
+            font-size: 16px;
+        }
+        
+        .navbar-toggler{
+            margin-right: 10px !important;
+        }
+        .navbar-brand{
+            height: 80px;
+           
+        }
+       .navbar{
+        height: 80px;
+       }
+       .search-lang{
+        justify-content: flex-end;
+    }
+    .language i{
+        font-size: 20px;
+    }
+    .search i{
+        font-size: 20px;
+        color: white;
+    }
+
+    /* job cads=================== */
+    
+    .job-card-text h1{
+        font-size: 16px;
+       
+    }
+    .job-card-text p{
+        font-size: 16px;
+   
+    }
+    .job-card-text button{
+        font-size: 15px;
+        font-weight: 500;
+      
+    }
+    .job-card-text span{
+        font-size: 15px;
+    }
+   
+  
+    /* member cards */
+    .member-card-text h1{
+        font-size: 16px;
+}
+.member-card-text p{
+    font-size: 16px;
+}
+.member-card-text  .location{
+    font-size: 16px;
+   
+}
+    .member-card-img{
+        height: 300px;
+       
+    }
+    .member-card-img img{
+        height: 300px;
+    }
+    .member-card-text{
+        padding: 10px 7px;
+    }
+    .stars i {
+        font-size: 20px;
+    }
+    .job-heading h1{
+        font-size: 45px;
+ 
+    }
+    .job-heading p{
+        font-size: 18px;
+       
+    }
+    .job-heading{
+        margin: 30px 0px;
+        text-align: center;
+    }
+
+     /* =============================service card */
+     .service-card-text h1{
+        font-size: 26px;
+    }
+    .blog-card-text h1{
+        font-size: 20px;
+        
+    }
+ 
+    .mailing-list h1{
+        font-size: 25px;
+     
+    }
+    .mailing-list p{
+        font-size: 16px;
+     
+    }
+   
+}
