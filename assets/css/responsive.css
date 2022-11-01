@@ -464,4 +464,20 @@
 .carousel-control-next, .carousel-control-prev{
     margin-top: 135px !important;
 }
+.review-text p {
+    font-size: 18px;
+   
+}
+.feedback-card h2 {
+    font-size: 25px;
+  
+}
+
+.feedback-card h3 {
+    font-size: 22px;
+
+}
+.job-heading h1{
+    font-size: 26px;
+}
 }
