@@ -1,154 +1,184 @@
-@media only screen and (min-width:1600px){
+@media only screen and (min-width:1600px) {
     .navbar {
         height: 150px;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         height: 150px;
-        
+
     }
-    .nav-link{
+
+    .nav-link {
         font-size: 24px;
     }
-    .nav-item{
+
+    .nav-item {
         padding: 5px 15px;
     }
-   /* ===============================================language and search */
-    .language i{
+
+    /* ===============================================language and search */
+    .language i {
         font-size: 28px;
         color: white;
     }
-    .language select{
+
+    .language select {
         padding: 10px 0px;
         width: 70px;
     }
-    .form-select{
+
+    .form-select {
         background-size: 11px;
     }
-    .job-heading{
+
+    .job-heading {
         margin: 80px 0px;
         text-align: center;
     }
-    .container-max{
+
+    .container-max {
         width: 1500px !important;
     }
 }
 
-@media only screen and (min-width:1300px){
-    .container{
+@media only screen and (min-width:1300px) {
+    .container {
         max-width: 1100px !important;
     }
-    .container-max{
+
+    .container-max {
         width: 1100px !important;
     }
 }
-@media only screen and (max-width:1200px){
-  /* member cards */
-    .member-card-text h1{
-            font-size: 20px;
-    }
-    .member-card-text p{
+
+@media only screen and (max-width:1200px) {
+
+    /* member cards */
+    .member-card-text h1 {
         font-size: 20px;
     }
-    .member-card-text  .location{
+
+    .member-card-text p {
         font-size: 20px;
-       
+    }
+
+    .member-card-text .location {
+        font-size: 20px;
+
     }
 
     /* job cads=================== */
-    .job-card-text{
+    .job-card-text {
         padding: 10px 7px;
     }
-    .job-card-text h1{
+
+    .job-card-text h1 {
         font-size: 18px;
-       
+
     }
-    .job-card-text p{
+
+    .job-card-text p {
         font-size: 18px;
-   
+
     }
-    .job-card-text button{
+
+    .job-card-text button {
         font-size: 16px;
         font-weight: 500;
-      
+
     }
-    .job-card-text span{
+
+    .job-card-text span {
         font-size: 15px;
     }
 
     /* =============================service card */
-    .service-card-text h1{
+    .service-card-text h1 {
         font-size: 28px;
     }
-    .blog-card-text{
-        padding:10px;
+
+    .blog-card-text {
+        padding: 10px;
     }
 }
-@media only screen and (max-width:1100px){
-    .hero-heading h1{
+
+@media only screen and (max-width:1100px) {
+    .hero-heading h1 {
         font-size: 30px;
-       width: 300px;
+        width: 300px;
     }
-    .hero-heading h2{
+
+    .hero-heading h2 {
         font-size: 30px;
         width: 320px;
-      
+
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         top: 150px !important;
     }
-    .hero-social p{
+
+    .hero-social p {
         font-size: 20px;
         margin-right: 3vw;
     }
 }
-@media only screen and (max-width:991px){
-    .decorated-line{
+
+@media only screen and (max-width:991px) {
+    .decorated-line {
         display: none;
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         top: unset !important;
         right: 45% !important;
     }
-    .hero-heading{
-        margin-left:unset;
+
+    .hero-heading {
+        margin-left: unset;
         position: relative;
         z-index: 10;
         margin-top: 20px;
     }
+
     /* .carousel-indicators [data-bs-target]{
         display: none;
     } */
-    .hero-heading{
+    .hero-heading {
         display: flex;
         flex-wrap: wrap;
     }
-    .hero-heading h1{
-       width:unset !important;
-       background-color: transparent;
-       color: var(--primary);
-       font-size: 35px;
-       padding-right: 15px !important;
-    }
-    .hero-heading h2{
+
+    .hero-heading h1 {
         width: unset !important;
         background-color: transparent;
         color: var(--primary);
         font-size: 35px;
-       
-      
+        padding-right: 15px !important;
     }
-    .hero-text{
-margin-top: 0px !important;
+
+    .hero-heading h2 {
+        width: unset !important;
+        background-color: transparent;
+        color: var(--primary);
+        font-size: 35px;
+
+
     }
-   
-    .carousel-control-next-icon2{
+
+    .hero-text {
+        margin-top: 0px !important;
+    }
+
+    .carousel-control-next-icon2 {
         /* background-color: var(--primary) !important;
         height: 60px  !important;
         width: 100px  !important;
         bottom: 0px; */
         display: none !important;
     }
-    .carousel-control-prev-icon2{
+
+    .carousel-control-prev-icon2 {
         /* background-color: var(--primary) !important;
         height: 60px  !important;
         width: 100px  !important;
@@ -156,216 +186,282 @@ margin-top: 0px !important;
         bottom: 0px !important; */
         display: none !important;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         margin-right: 15px !important;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         background-color: var(--primary);
         z-index: 1000;
-        }
-    .navbar-nav{
+    }
+
+    .navbar-nav {
         padding: 10px 15px;
 
     }
-        .nav-link{
-            color: white !important;
-            font-size: 18px;
-        }
-        .active{
-            color: #ff6f0f !important;
-        }
-        .search-lang{
-            justify-content: flex-end;
-        }
-        .footer-text{
-            justify-content: center !important;
-            text-align: center;
-            align-items: center !important;
-            margin-top: 10px;
-        }
+
+    .nav-link {
+        color: white !important;
+        font-size: 18px;
+    }
+
+    .active {
+        color: #ff6f0f !important;
+    }
+
+    .search-lang {
+        justify-content: flex-end;
+    }
+
+    .footer-text {
+        justify-content: center !important;
+        text-align: center;
+        align-items: center !important;
+        margin-top: 10px;
+    }
 }
-@media only screen and (max-width:768px){
-    .hero-social p{
+
+@media only screen and (max-width:768px) {
+    .hero-social p {
         font-size: 18px;
         margin-right: 2vw;
     }
-    .hero-section-img{
+
+    .hero-section-img {
         height: 400px;
         width: 100%;
     }
-    .hero-section-img img{
+
+    .hero-section-img img {
         height: 400px;
         width: 100%;
     }
-   
-        .navbar-brand{
-            height: 100px;
-            width: auto;
-            object-fit: contain;
-        }
-       .navbar{
+
+    .navbar-brand {
         height: 100px;
-       }
-       .search-lang{
+        width: auto;
+        object-fit: contain;
+    }
+
+    .navbar {
+        height: 100px;
+    }
+
+    .search-lang {
         justify-content: flex-end;
     }
+
     .navbar-toggler:focus {
         text-decoration: none;
         outline: 0;
-        box-shadow:none;
+        box-shadow: none;
     }
-    .mailing-list input{
+
+    .mailing-list input {
         height: 50px;
         width: 100%;
-       font-size: 18px;
-      }
-      .mailing-list button{
-          height: 50px;
-          width: 100%;
-         font-size: 18px;
-         margin: 0px;
-         text-align: center;
-         margin-top: 20px;
-      }
-      .mailing-list{
+        font-size: 18px;
+    }
+
+    .mailing-list button {
+        height: 50px;
+        width: 100%;
+        font-size: 18px;
+        margin: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .mailing-list {
         padding: 30px 10px;
     }
-      .mailing-form{
+
+    .mailing-form {
         flex-direction: column;
-      }
-      .review-text{
-       padding: 0px;
+    }
+
+    .review-text {
+        padding: 0px;
         width: 100%;
     }
 }
-@media only screen and (max-width:550px){
-    .hero-social p{
+
+@media only screen and (max-width:550px) {
+    .hero-social p {
         font-size: 16px;
         margin-right: 2vw;
     }
 }
-@media only screen and (max-width:479px){
-    .hero-social{
+
+@media only screen and (max-width:479px) {
+    .hero-social {
         justify-content: space-around;
     }
-    .hero-social p{
+
+    .hero-social p {
         font-size: 16px;
         margin-right: 2vw;
     }
-    
-    .mt-50{
+
+    .mt-50 {
         margin-top: 50px;
     }
-    .hero-section-img{
+
+    .hero-section-img {
         height: 300px;
         width: 100%;
     }
-    .hero-section-img img{
+
+    .hero-section-img img {
         height: 300px;
         width: 100%;
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         top: unset !important;
         right: 40% !important;
     }
-        .nav-link{
-            font-size: 16px;
-        }
-        
-        .navbar-toggler{
-            margin-right: 10px !important;
-        }
-        .navbar-brand{
-            height: 80px;
-           
-        }
-       .navbar{
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px !important;
+    }
+
+    .navbar-brand {
         height: 80px;
-       }
-       .search-lang{
+
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .search-lang {
         justify-content: flex-end;
     }
-    .language i{
+
+    .language i {
         font-size: 20px;
     }
-    .search i{
+
+    .search i {
         font-size: 20px;
         color: white;
     }
 
     /* job cads=================== */
-    
-    .job-card-text h1{
+
+    .job-card-text h1 {
         font-size: 16px;
-       
+
     }
-    .job-card-text p{
+
+    .job-card-text p {
         font-size: 16px;
-   
+
     }
-    .job-card-text button{
+
+    .job-card-text button {
         font-size: 15px;
         font-weight: 500;
-      
+
     }
-    .job-card-text span{
+
+    .job-card-text span {
         font-size: 15px;
     }
-   
-  
+
+
     /* member cards */
-    .member-card-text h1{
+    .member-card-text h1 {
         font-size: 16px;
-}
-.member-card-text p{
-    font-size: 16px;
-}
-.member-card-text  .location{
-    font-size: 16px;
-   
-}
-    .member-card-img{
-        height: 300px;
-       
     }
-    .member-card-img img{
+
+    .member-card-text p {
+        font-size: 16px;
+    }
+
+    .member-card-text .location {
+        font-size: 16px;
+
+    }
+
+    .member-card-img {
+        height: 300px;
+
+    }
+
+    .member-card-img img {
         height: 300px;
     }
-    .member-card-text{
+
+    .member-card-text {
         padding: 10px 7px;
     }
+
     .stars i {
         font-size: 20px;
     }
-    .job-heading h1{
+
+    .job-heading h1 {
         font-size: 45px;
- 
+
     }
-    .job-heading p{
+
+    .job-heading p {
         font-size: 18px;
-       
+
     }
-    .job-heading{
+
+    .job-heading {
         margin: 30px 0px;
         text-align: center;
     }
 
-     /* =============================service card */
-     .service-card-text h1{
+    /* =============================service card */
+    .service-card-text h1 {
         font-size: 26px;
     }
-    .blog-card-text h1{
+
+    .blog-card-text h1 {
         font-size: 20px;
-        
+
+    }
+
+    .mailing-list h1 {
+        font-size: 25px;
+
+    }
+
+    .mailing-list p {
+        font-size: 16px;
+
     }
  
-    .mailing-list h1{
-        font-size: 25px;
-     
-    }
-    .mailing-list p{
-        font-size: 16px;
-     
-    }
+.footer-text h3 {
+    font-size: 18px;
+  
+}
+
+.footer-text button {
+
+    font-size: 18px;
+
+}
+
+.footer-nav li a {
+    font-size: 18px;
    
+}
+.modal-box h1 {
+    font-size: 20px;
+ 
+}
+.carousel-control-next, .carousel-control-prev{
+    margin-top: 135px !important;
+}
 }
