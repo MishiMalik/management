@@ -611,6 +611,8 @@ footer{
     height: 470px;
     width: 100%;
     object-fit: cover;
+    position: relative;
+    z-index: 3;
 }
 .hero-heading{
     margin-left: -100px;
@@ -722,4 +724,32 @@ footer{
 }
 .carousel-indicators .active{
     background-color:  #203d41;
+}
+.hero-social a{
+    text-decoration: none !important;
+}
+.hero-social p{
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #203d41;
+    margin-right:3vw;
+    margin-top: 25px;
+}
+.hero-section{
+    position: relative;
+}
+.decorated-line{
+    position: absolute;
+    height: 70px;
+    width: 500px;
+    z-index: 1;
+    bottom: 55px;
+    background-color: #ff6f0f;
 }

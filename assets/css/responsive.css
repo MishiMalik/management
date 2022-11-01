@@ -28,11 +28,17 @@
         margin: 80px 0px;
         text-align: center;
     }
+    .container-max{
+        width: 1500px !important;
+    }
 }
 
 @media only screen and (min-width:1300px){
     .container{
         max-width: 1100px !important;
+    }
+    .container-max{
+        width: 1100px !important;
     }
 }
 @media only screen and (max-width:1200px){
@@ -90,8 +96,15 @@
     .carousel-indicators{
         top: 150px !important;
     }
+    .hero-social p{
+        font-size: 20px;
+        margin-right: 3vw;
+    }
 }
 @media only screen and (max-width:991px){
+    .decorated-line{
+        display: none;
+    }
     .carousel-indicators{
         top: unset !important;
         right: 45% !important;
@@ -100,7 +113,10 @@
         margin-left:unset;
         position: relative;
         z-index: 10;
-        margin-top: 100px;
+        margin-top: 20px;
+    }
+    .carousel-indicators [data-bs-target]{
+        display: none;
     }
     .hero-heading{
         display: flex;
@@ -137,6 +153,19 @@ margin-top: 0px !important;
         right: 100px !important;
         bottom: -60px !important;
     } 
+    .carousel-control-next-icon2{
+        background-color: var(--primary) !important;
+        height: 60px  !important;
+        width: 100px  !important;
+        bottom: 0px;
+    }
+    .carousel-control-prev-icon2{
+        background-color: var(--primary) !important;
+        height: 60px  !important;
+        width: 100px  !important;
+        right: 100px !important;
+        bottom: 0px !important;
+    }
     .navbar-toggler{
         margin-right: 15px !important;
     }
@@ -166,6 +195,10 @@ margin-top: 0px !important;
         }
 }
 @media only screen and (max-width:768px){
+    .hero-social p{
+        font-size: 18px;
+        margin-right: 2vw;
+    }
     .hero-section-img{
         height: 400px;
         width: 100%;
@@ -215,8 +248,21 @@ margin-top: 0px !important;
         width: 100%;
     }
 }
-
+@media only screen and (max-width:550px){
+    .hero-social p{
+        font-size: 16px;
+        margin-right: 2vw;
+    }
+}
 @media only screen and (max-width:479px){
+    .hero-social{
+        justify-content: space-around;
+    }
+    .hero-social p{
+        font-size: 16px;
+        margin-right: 2vw;
+    }
+    
     .mt-50{
         margin-top: 50px;
     }
